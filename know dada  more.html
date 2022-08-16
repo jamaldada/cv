@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>my forms and input tables</title>
+    </head>
+    <body>
+        <h1>i really want to know about you guys</h1>
+        <p>just respond to the following, please</p>
+        <form action="https://httpbin.org/get" method="get"></form>
+        <p>
+            <fieldset>
+                <legend>personal info</legend>
+                <p>
+                <label for="first name">first name:</label>
+                <input type="text" id="first name" autocomplete="on" required autofocus placeholder="dada">
+            </p>
+                <p>
+                <label for="last name">last name:</label>
+                <input type="text" id="last name" autocomplete="on" required placeholder="fareedah">
+            </p>
+                <p>
+                <label for="password">password:</label>
+                <input type="password" id="password" required autofocus>
+            </p>
+                <p>
+                <label for="date of birth">date of birth:</label>
+                <input type="number" id="date of birth" min="1990" max="2030"  value="2011" step="1">
+            </p>
+            </fieldset>
+        </form>
+        </p>
+        <p>there are some things i will like you guys to do for me</p>
+        <ul>
+            <li>like the picture below</li>
+            <li>share the pictures to your friends</li>
+        </ul>
+        <figure>
+         <img src="img/HTML5.png" width="200" height="200" alt="anime">
+         <figcaption>respect me please!</figcaption>
+    </figure>
+    <form action="https://httpbin.org/get" method="get"></form>
+    <fieldset>
+        <legend>which do you prefer</legend>
+        <p>
+        <input type="radio" name="animals" id="dogs">
+        <label for="dogs">dogs</label>
+    </p>
+        <p>
+        <input type="radio" name="animals" id="racoons">
+        <label for="racoons">racoons</label>
+    </p>
+        <p>
+        <input type="radio" name="animals" id="others">
+        <label for="others">others</label>
+    </p>
+</fieldset>
+    <br>
+    <fieldset>
+        <legend>people you prefer</legend>
+    
+    <p>
+    <input type="checkbox" name="people" id="jamal">
+    <label for="jamal">jamal</label>
+</p>
+    <p>
+    <input type="checkbox" name="people" id="fareedah">
+    <label for="fareedah">fareedah</label>
+</p>
+    <p>
+    <input type="checkbox" name="people" id="fareed">
+    <label for="fareed">fareed</label>
+</p>
+</fieldset>
+<fieldset>
+    <legend>favorite Coffees</legend>
+    <label for="favorite coffee">favorite coffee</label>
+    <select name="favorite cofee" id="favorite coffee" multiple="2">
+        <optgroup label="coffee from your households">
+<option value="coffee olosun"> coffee olosun</option>
+<option value="coffee ijebu">coffee ijebu</option>
+        </optgroup>
+    <optgroup label="espresso drinks">
+<option value="latte">latte</option>
+<option value="americano">americano</option>
+</optgroup>
+    </select>
+</fieldset>
+<br>
+<fieldset>
+    <legend>let me see your messages</legend>
+    <label for="message">what do you feel about me</label>
+    <textarea name="what do you feel about me" id="about me" cols="30" rows="10"></textarea>
+</fieldset>
+<button type="submit">submit</button>
+<button type="reset"> reset</button>
+<button type="submit" formaction="htttps//" formmethod="post">post</button>
+<aside>
+    <details>
+    <summary>dont forget</summary>
+        <p>i love you</p>
+    </details>
+    </aside>
+    </body>
+</html>

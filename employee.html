@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>employee survey form</title>
+    </head>
+    <body>
+        <header>
+        <h1>Employee Survey Form</h1>
+    </header>
+    <main>
+        <form action="https://httpbin.org/get" method="get"></form>
+     <label for="enter your name">Enter your name:</label>
+        <input type="text" name="enter your name" id="enter your name" required autocomplete="on">
+        <p>
+            <label for="enter your department">Enter Your Department</label>
+            <input type="text" name="enter your department" id="enter your deparment" required autocomplete="on">
+            <p>
+                <label for="tell a a little about yourself">Tell us a little About yourself:</label>
+                <textarea name="tell us a little about yourself" id="tell us a little about yourself" cols="30" rows="10">
+                </textarea>
+            </p>
+                
+                <p> do you exercise at home?  <input type="radio" name="exercise" id="yes"><label for="do you exercise a t home">yes</label> <input type="radio" name="exercise" id="no"><label for="do you exercise">no</label> 
+            </p>
+        <fieldset>
+            <legend>how do you read?</legend>
+            <p>
+                <input type="checkbox" name="read" id="books">
+                <label for="books">books</label>
+            </p>
+            <p>
+                <input type="checkbox" name="read" id="online resources">
+                <label for="online resources">online resources</label>
+            </p>
+            <p>
+                <input type="checkbox" name="read" id="phone apps">
+                <label for="phone apps">phone apps</label>
+            </p>
+            <p>
+                <input type="checkbox" name="read" id="magazines">
+                <label for="magazines">magazines</label>
+            </p>
+        </fieldset>
+
+            <p>
+                <label for="what genre of music do you like"> what of genre of music do you like</label>
+                <select name="genre" id="genre">
+                <option value="comedy">comedy</option>
+                <option value="action">action</option>
+                <option value="triller">triller</option>
+            </p>
+        </select>
+        <p>
+        <button type="submit">submit form</button>
+    </p>
+    </main>
+    </body>
+</html>
